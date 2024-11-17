@@ -1,5 +1,5 @@
 # Porsche Digital Campus Challenge
-https://docs.google.com/presentation/d/1rCkm0kfYHEP12uH-IHF9vGpcYkwnsZtg/edit 
+Idea: https://docs.google.com/presentation/d/1rCkm0kfYHEP12uH-IHF9vGpcYkwnsZtg/edit 
 
 ## Dataset:
 ### From Porsche Newsroom:
