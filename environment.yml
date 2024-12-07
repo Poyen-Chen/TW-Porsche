@@ -1,0 +1,28 @@
+name: porsche_challenge
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - python-dotenv
+  - ipykernel
+  - setuptools
+  - wheel
+  - pip
+  - sentence-transformers
+  - pip:
+      - pypdf
+      - pypdfium2
+      - faiss-cpu
+      - langchain
+      - langchain-openai
+      - langchain-community
+      - langchain-core
+      - langchain-text-splitters
+      - langchain-huggingface
+      - langchain-aws
+      - langchain-anthropic
+      - beautifulsoup4
+      - playwright
+      - huggingface-hub
+      - openai
