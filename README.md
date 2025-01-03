@@ -34,7 +34,7 @@ conda activate porsche-challenge
 Option 1: open terminal/command window and set up the required enviroment variables
 
 ```bash
-EXPORT AWS_ACCESS_KEY_ID="XXXXXXXXX"
+EXPORT HUGGINGFACEHUB_API_TOKEN="XXXXXXXXX"
 ```
 
 Option 2: set up the keys in a .env file
@@ -42,7 +42,6 @@ Option 2: set up the keys in a .env file
 First, create a `.env` file in the root directory of the project. Inside the file, add your OpenAI API key and Huggingface API key:
 
 ```makefile
-OPENAI_API_KEY="your_api_key_here"
 HUGGINGFACEHUB_API_TOKEN="your_api_key_here"
 ```
 
@@ -61,9 +60,4 @@ api_key = os.environ['HUGGINGFACEHUB_API_TOKEN']
 ```
 
 ## Usage
-
-- `embedding_model.ipynb`: baseline model test case
-- `web_scrape.py`: using langchain framework to web scraping via llm with BeautifulSoup library
-- `rag_aws.py`: using AWS Bedrock along with Langchain framework to generate RAG pipeline. \(Note: FAISS is used for the vector store and it is stored in a temporary In-memory vector store. Therefore, PDF documents need to embed to vector every time you run it.)
-- `bedrock.tutorial.py`: tutorial provided by AWS
-- `knowledge_base_aws.py`: knowledge base RAG pipeline provided by AWS Bedrock
+- `embedding_model.ipynb`: compare fine-tuned model to pretrained model with similarity score as an evaluation index

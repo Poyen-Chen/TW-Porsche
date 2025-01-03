@@ -9,8 +9,8 @@ dependencies:
   - setuptools
   - wheel
   - pip
-  - sentence-transformers
   - pip:
+      - bitsandbytes
       - pypdf
       - pypdfium2
       - faiss-cpu
@@ -26,3 +26,4 @@ dependencies:
       - playwright
       - huggingface-hub
       - openai
+      - sentence-transformers
