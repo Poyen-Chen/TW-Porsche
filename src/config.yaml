@@ -1,0 +1,40 @@
+model_repo: "dunzhang/stella_en_400M_v5" 
+    # Other popular embedding models:
+    # nomic-ai/nomic-embed-text-v1
+    # BAAI/bge-large-en-v1.5
+    # Other top-ranking embedding models:
+    # dunzhang/stella_en_1.5B_v5
+    # Alibaba-NLP/gte-Qwen2-1.5B-instruct
+    # jinaai/jina-embeddings-v3
+    # Alibaba-NLP/gte-large-en-v1.5
+    # jxm/cde-small-v1
+    # HIT-TMG/KaLM-embedding-multilingual-mini-instruct-v1.5
+    # mixedbread-ai/mxbai-embed-large-v1
+    # WhereIsAI/UAE-Large-V1
+    # infgrad/jasper_en_vision_language_v1
+    # https://openai.com/index/new-embedding-models-and-api-updates/
+    # https://docs.voyageai.com/docs/embeddings
+    # https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings#generative-ai-get-text-embedding-python_vertex_ai_sdk
+
+data_config_type: "triplets" # Options: [pair, triplets, pair_score, pair_class]
+
+lora:
+  rank: 8
+  alpha: 32
+  dropout: 0.1
+  target_modules: "all-linear"  # Options: ["qkv_proj", "o_proj", "up_gate_proj", "down_proj"]
+  use_dora: true
+  lora_plus_lr_ratio: 16
+
+finetuning:
+  epochs: 10
+  batch_size: 16
+  warmup_ratio: 0.1
+  use_mps_device: False # Set to True if using Apple-Silicon chips
+  lr: 2e-5
+  lr_scheduler_type: "cosine"
+  eval_strategy: "epoch"
+  save_strategy: "epoch"
+  logging_steps: 100
+  save_total_limit: 3
+  save_dir: "../models/"
