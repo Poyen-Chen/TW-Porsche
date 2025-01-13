@@ -9,4 +9,7 @@ Vehicle specifications and features, Model information and pricing, Product conf
 
 ## App demo
 Use streamlit and adapt the chatbot from this [template](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)
+```bash
+streamlit run app.py
+```
 <img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo.png" />
