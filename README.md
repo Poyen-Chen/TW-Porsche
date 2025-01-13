@@ -8,5 +8,5 @@ Press releases and news articles, Product announcements and specifications, Corp
 Vehicle specifications and features, Model information and pricing, Product configurations, Dealership information, Public marketing materials
 
 ## App demo
-Use streamlit and adapt the demo from this [template](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)
+Use streamlit and adapt the chatbot from this [template](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)
 <img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo.png" />
