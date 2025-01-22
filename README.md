@@ -13,3 +13,6 @@ Use streamlit and adapt the chatbot from this [template](https://docs.streamlit.
 streamlit run app.py
 ```
 <img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo/demo2.png" />
+<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo/demo3.png" />
+<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo/demo4.png" />
+<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo/demo5.png" />
