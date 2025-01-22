@@ -12,4 +12,4 @@ Use streamlit and adapt the chatbot from this [template](https://docs.streamlit.
 ```bash
 streamlit run app.py
 ```
-<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo.png" />
+<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo/demo2.png" />
