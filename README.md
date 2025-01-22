@@ -7,7 +7,7 @@ Press releases and news articles, Product announcements and specifications, Corp
 ### From [Porsche.com](https://newsroom.porsche.com/en.html):
 Vehicle specifications and features, Model information and pricing, Product configurations, Dealership information, Public marketing materials
 
-## App demo
+## App demo (Vehicle recommendation system)
 Our main goal of this chatbot is let customers who are interested in Porsche vehicles would know more about specific Porsche products. (We used streamlit and adapt the chatbot from this [template](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps).)
 ```bash
 streamlit run app.py
