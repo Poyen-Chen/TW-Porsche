@@ -8,7 +8,7 @@ Press releases and news articles, Product announcements and specifications, Corp
 Vehicle specifications and features, Model information and pricing, Product configurations, Dealership information, Public marketing materials
 
 ## App demo
-Our main goal of this chatbot is let customers who are interested in Poresche car know more about specific Porsche product. (We used streamlit and adapt the chatbot from this [template](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps).)
+Our main goal of this chatbot is let customers who are interested in Porsche vehicles would know more about specific Porsche products. (We used streamlit and adapt the chatbot from this [template](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps).)
 ```bash
 streamlit run app.py
 ```
