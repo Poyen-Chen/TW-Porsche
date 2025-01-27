@@ -91,6 +91,8 @@ Optionally, in `src` folder, there are equivalent `.py` files:
 - `rag_pipeline.py`:  RAG pipeline for future app integration
 - `src/aws_bedrock_models`: source codes for generating synthetic dataset using AWS bedrock
 
+The fine-tuned models are stored in `models` folder.
+
 ## App demo (Vehicle recommendation system)
 Our main goal of this chatbot is let customers who are interested in Porsche vehicles would know more about specific Porsche products. (We used streamlit and adapt the chatbot from this [template](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps).)
 
