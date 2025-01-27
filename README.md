@@ -70,8 +70,6 @@ Our fine-tuning dataset can be found in `data` folder:
 - `qa_pairs_pos_only.json`: pairs dataset with (anchor, positive)
 - `docs/`: contain additional Porsche documents we use other than web scraping to store in our vector database
 
-In the case of having enough computational resources, you could run the file `local_pipeline.py` and `loca_pipeline_pretrained.py` to compare fine-tuning result, respectively. Specifically, if you accelerate it with Nvidia H100 GPU (the resource from our cluster in RWTH Aachen) for instance, it takes around 2 minutes to get the result.
-
 Due to limited computational resources, most of our work are done in Colab/Kaggle notebook as below:
 
 - `get_data_from_web.ipynb`: web scraping to collect dataset
@@ -90,6 +88,8 @@ Optionally, in `src` folder, there are equivalent `.py` files:
 - `rag_finetune.py`: test RAG with finetuned embedding model
 - `rag_pipeline.py`:  RAG pipeline for future app integration
 - `src/aws_bedrock_models`: source codes for generating synthetic dataset using AWS bedrock
+
+In the case of having enough computational resources, you could run the file `src/rag_baseline.py` and `src/rag_finetune.py` to compare fine-tuning result, respectively. Specifically, if you accelerate it with Nvidia H100 GPU (the resource from our cluster in RWTH Aachen) for instance, it takes around 2 minutes to get the result.
 
 The fine-tuned models are stored in `models` folder.
 
