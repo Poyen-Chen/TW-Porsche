@@ -59,6 +59,12 @@ import os
 api_key = os.environ['HUGGINGFACEHUB_API_TOKEN']
 ```
 
+## Dataset:
+### From [Porsche Newsroom](https://newsroom.porsche.com/en.html):
+Press releases and news articles, Product announcements and specifications, Corporate news and updates, Event coverage, Photo and video galleries
+### From [Porsche.com](https://newsroom.porsche.com/en.html):
+Vehicle specifications and features, Model information and pricing, Product configurations, Dealership information, Public marketing materials
+
 ## Usage
 Our fine-tuning dataset can be found in `data` folder:
 
@@ -82,3 +88,13 @@ Optionally, in src folder, there are equivalent `.py` files:
 - `fine_tuning.py`: fine-tuning embedding models
 - `rag_pipeline.py`: integrate into RAG pipeline
 - `src/aws_bedrock_models`: source codes for generating synthetic dataset using AWS bedrock
+
+## App demo (Vehicle recommendation system)
+Our main goal of this chatbot is let customers who are interested in Porsche vehicles would know more about specific Porsche products. (We used streamlit and adapt the chatbot from this [template](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps).)
+```bash
+streamlit run app.py
+```
+<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo/demo2.png" />
+<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo/demo3.png" />
+<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo/demo4.png" />
+<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo/demo5.png" />
