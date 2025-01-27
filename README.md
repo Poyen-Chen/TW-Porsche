@@ -1,6 +1,6 @@
 # Porsche Digital Campus Challenge (Team: TW@Porsche)
 
-[Idea: Recommendation system with fine-tuning text embedding models](https://docs.google.com/presentation/d/1rCkm0kfYHEP12uH-IHF9vGpcYkwnsZtg/edit)
+Idea: Recommendation system with fine-tuning text embedding models
 
 [Text Embedding model leaderboard](https://huggingface.co/blog/mteb)
 
@@ -80,7 +80,7 @@ Due to limited computational resources, most of our work are done in Colab/Kaggl
 - `finetuning_results_evaluation.ipynb`: compare fine-tuned model to pretrained model with similarity score as an evaluation index
 - `rag_pipeline.ipynb`: integrate into RAG pipeline
 
-Optionally, in src folder, there are equivalent `.py` files:
+Optionally, in `src` folder, there are equivalent `.py` files:
 
 - `web_scrape.py`: scraping from website
 - `syndata_generator.py`: generate synthetic dataset
@@ -93,10 +93,12 @@ Optionally, in src folder, there are equivalent `.py` files:
 
 ## App demo (Vehicle recommendation system)
 Our main goal of this chatbot is let customers who are interested in Porsche vehicles would know more about specific Porsche products. (We used streamlit and adapt the chatbot from this [template](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps).)
+
+Due to computational resource limit, we did not directly integrate RAG pipeline into our UI. We instead store the rsults as `json` and import to our UI. Integration to UI can be done in future work. 
 ```bash
 streamlit run app.py
 ```
-<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo/demo2.png" />
-<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo/demo3.png" />
-<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo/demo4.png" />
-<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/demo/demo5.png" />
+<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/images/demo/demo2.png" />
+<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/images/demo/demo3.png" />
+<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/images/demo/demo4.png" />
+<img width="807" alt="demo" src="https://github.com/Poyen-Chen/TW-Porsche/blob/main/images/demo/demo5.png" />
