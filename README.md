@@ -86,7 +86,9 @@ Optionally, in src folder, there are equivalent `.py` files:
 - `syndata_generator.py`: generate synthetic dataset
 - `config.yaml`: user can input their embedding model and customize their fine-tuning hyperparameters
 - `fine_tuning.py`: fine-tuning embedding models
-- `rag_pipeline.py`: integrate into RAG pipeline
+- `rag_baseline.py`: test RAG with baseline pretrained embedding model
+- `rag_finetune.py`: test RAG with finetuned embedding model
+- `rag_pipeline.py`:  RAG pipeline for future app integration
 - `src/aws_bedrock_models`: source codes for generating synthetic dataset using AWS bedrock
 
 ## App demo (Vehicle recommendation system)
