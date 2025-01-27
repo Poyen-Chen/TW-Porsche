@@ -1,0 +1,515 @@
+[
+    {"bge_large": 
+        [
+            {"triplets": 
+                [
+                    {"base_model": 
+                        {
+                            "triplet_evaluation_test_cosine_accuracy": 0.7590361445783133, 
+                            "triplet_evaluation_test_euclidean_accuracy": 0.7590361445783133, 
+                            "triplet_evaluation_test_max_accuracy": 0.7590361445783133
+                        }
+                    }, 
+                    {"fine_tune": 
+                        {
+                            "triplet_evaluation_test_cosine_accuracy": 0.9698795180722891, 
+                            "triplet_evaluation_test_euclidean_accuracy": 0.9698795180722891, 
+                            "triplet_evaluation_test_max_accuracy": 0.9698795180722891
+                        }
+                    }
+                ]
+            }, 
+            {"pair": 
+                [
+                    {"base_model": 
+                        {
+                            "cosine_accuracy@1": 0.39444444444444443,
+                            "cosine_accuracy@3": 0.5333333333333333,
+                            "cosine_accuracy@5": 0.6222222222222222,
+                            "cosine_accuracy@10": 0.75,
+                            "cosine_precision@1": 0.39444444444444443,
+                            "cosine_precision@3": 0.17777777777777778,
+                            "cosine_precision@5": 0.12444444444444444,
+                            "cosine_precision@10": 0.07499999999999998,
+                            "cosine_recall@1": 0.39444444444444443,
+                            "cosine_recall@3": 0.5333333333333333,
+                            "cosine_recall@5": 0.6222222222222222,
+                            "cosine_recall@10": 0.75,
+                            "cosine_ndcg@10": 0.5560548086470748,
+                            "cosine_mrr@10": 0.49596340388007065,
+                            "cosine_map@100": 0.5041188879980769
+                        }
+                    }, 
+                    {"fine_tune": 
+                        {
+                            "cosine_accuracy@1": 0.55,
+                            "cosine_accuracy@3": 0.7555555555555555, 
+                            "cosine_accuracy@5": 0.8222222222222222, 
+                            "cosine_accuracy@10": 0.8722222222222222, 
+                            "cosine_precision@1": 0.55, 
+                            "cosine_precision@3": 0.2518518518518518, 
+                            "cosine_precision@5": 0.16444444444444442, 
+                            "cosine_precision@10": 0.0872222222222222, 
+                            "cosine_recall@1": 0.55, 
+                            "cosine_recall@3": 0.7555555555555555, 
+                            "cosine_recall@5": 0.8222222222222222, 
+                            "cosine_recall@10": 0.8722222222222222, 
+                            "cosine_ndcg@10": 0.7114199731692671, 
+                            "cosine_mrr@10": 0.6592658730158728, 
+                            "cosine_map@100": 0.6643426002899242
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {"all-mpnet-base-v2":
+        [
+            {"triplets":
+                [
+                    {"base_model": 
+                        {
+                            "triplet_evaluation_test_cosine_accuracy": 0.7289156626506024, 
+                            "triplet_evaluation_test_euclidean_accuracy": 0.7289156626506024, 
+                            "triplet_evaluation_test_max_accuracy": 0.7289156626506024
+                        }
+                    }, 
+                    {"fine_tune": 
+                        { 
+                            "triplet_evaluation_test_cosine_accuracy": 1.0,
+                            "triplet_evaluation_test_euclidean_accuracy": 1.0,
+                            "triplet_evaluation_test_max_accuracy": 1.0
+                        }
+                    }
+                ]
+            },
+            {"pair":
+                [
+                    {"base_model": 
+                        {
+                            "cosine_accuracy@1": 0.5388888888888889, 
+                            "cosine_accuracy@3": 0.6888888888888889, 
+                            "cosine_accuracy@5": 0.7555555555555555, 
+                            "cosine_accuracy@10": 0.8333333333333334, 
+                            "cosine_precision@1": 0.5388888888888889, 
+                            "cosine_precision@3": 0.2296296296296296, 
+                            "cosine_precision@5": 0.15111111111111108, 
+                            "cosine_precision@10": 0.08333333333333331, 
+                            "cosine_recall@1": 0.5388888888888889, 
+                            "cosine_recall@3": 0.6888888888888889, 
+                            "cosine_recall@5": 0.7555555555555555, 
+                            "cosine_recall@10": 0.8333333333333334, 
+                            "cosine_ndcg@10": 0.6794246809858941, 
+                            "cosine_mrr@10": 0.6308377425044092, 
+                            "cosine_map@100": 0.6347486836204828
+                        }
+                    },
+                    {"fine_tune":
+                        {
+                            "cosine_accuracy@1": 0.6222222222222222,
+                            "cosine_accuracy@3": 0.7777777777777778, 
+                            "cosine_accuracy@5": 0.8333333333333334, 
+                            "cosine_accuracy@10": 0.8666666666666667, 
+                            "cosine_precision@1": 0.6222222222222222, 
+                            "cosine_precision@3": 0.2592592592592592, 
+                            "cosine_precision@5": 0.16666666666666666, 
+                            "cosine_precision@10": 0.08666666666666666, 
+                            "cosine_recall@1": 0.6222222222222222, 
+                            "cosine_recall@3": 0.7777777777777778, 
+                            "cosine_recall@5": 0.8333333333333334, 
+                            "cosine_recall@10": 0.8666666666666667, 
+                            "cosine_ndcg@10": 0.7483605513989878, 
+                            "cosine_mrr@10": 0.7098897707231039, 
+                            "cosine_map@100": 0.7164550186275263
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {"UAE":
+        [
+            {"triplets":
+                [
+                    {"base_model": 
+                        {
+                            "triplet_evaluation_test_cosine_accuracy": 0.7530120481927711, 
+                            "triplet_evaluation_test_euclidean_accuracy": 0.7409638554216867, 
+                            "triplet_evaluation_test_max_accuracy": 0.7530120481927711
+                        }
+                    }, 
+                    {"fine_tune": 
+                        { 
+                            "triplet_evaluation_test_cosine_accuracy": 0.9939759036144579,
+                            "triplet_evaluation_test_euclidean_accuracy": 0.9939759036144579,
+                            "triplet_evaluation_test_max_accuracy": 0.9939759036144579
+                        }
+                    }
+                ]
+            },
+            {"pair":
+                [
+                    {"base_model": 
+                        {
+                            "cosine_accuracy@1": 0.4444444444444444, 
+                            "cosine_accuracy@3": 0.5888888888888889, 
+                            "cosine_accuracy@5": 0.6444444444444445, 
+                            "cosine_accuracy@10": 0.7166666666666667, 
+                            "cosine_precision@1": 0.4444444444444444, 
+                            "cosine_precision@3": 0.19629629629629627, 
+                            "cosine_precision@5": 0.12888888888888886, 
+                            "cosine_precision@10": 0.07166666666666666, 
+                            "cosine_recall@1": 0.4444444444444444, 
+                            "cosine_recall@3": 0.5888888888888889, 
+                            "cosine_recall@5": 0.6444444444444445, 
+                            "cosine_recall@10": 0.7166666666666667, 
+                            "cosine_ndcg@10": 0.5784930096951566, 
+                            "cosine_mrr@10": 0.5346252204585538, 
+                            "cosine_map@100": 0.5432921329211831
+                        }
+                    },
+                    {"fine_tune":
+                        {
+                            "cosine_accuracy@1": 0.55, 
+                            "cosine_accuracy@3": 0.7333333333333333, 
+                            "cosine_accuracy@5": 0.8166666666666667, 
+                            "cosine_accuracy@10": 0.8666666666666667, 
+                            "cosine_precision@1": 0.55, 
+                            "cosine_precision@3": 0.2444444444444444, 
+                            "cosine_precision@5": 0.1633333333333333, 
+                            "cosine_precision@10": 0.08666666666666666, 
+                            "cosine_recall@1": 0.55, 
+                            "cosine_recall@3": 0.7333333333333333, 
+                            "cosine_recall@5": 0.8166666666666667, 
+                            "cosine_recall@10": 0.8666666666666667, 
+                            "cosine_ndcg@10": 0.7118463341691333, 
+                            "cosine_mrr@10": 0.6617063492063492, 
+                            "cosine_map@100": 0.6663046341703318 
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {"stella":
+        [
+            {"triplets":
+                [
+                    {"base_model": 
+                        {
+                            "triplet_evaluation_test_cosine_accuracy": 0.7108433734939759, 
+                            "triplet_evaluation_test_euclidean_accuracy": 0.7048192771084337, 
+                            "triplet_evaluation_test_max_accuracy": 0.7108433734939759
+                        }
+                    }, 
+                    {"fine_tune": 
+                        { 
+                            "triplet_evaluation_test_cosine_accuracy": 0.9939759036144579, 
+                            "triplet_evaluation_test_euclidean_accuracy": 0.9939759036144579, 
+                            "triplet_evaluation_test_max_accuracy": 0.9939759036144579
+                        }
+                    }
+                ]
+            },
+            {"pair":
+                [
+                    {"base_model": 
+                        {
+                            "cosine_accuracy@1": 0.5, 
+                            "cosine_accuracy@3": 0.7222222222222222, 
+                            "cosine_accuracy@5": 0.7777777777777778, 
+                            "cosine_accuracy@10": 0.8222222222222222, 
+                            "cosine_precision@1": 0.5,
+                            "cosine_precision@3": 0.24074074074074073, 
+                            "cosine_precision@5": 0.1555555555555555, 
+                            "cosine_precision@10": 0.08222222222222221, 
+                            "cosine_recall@1": 0.5, 
+                            "cosine_recall@3": 0.7222222222222222, 
+                            "cosine_recall@5": 0.7777777777777778, 
+                            "cosine_recall@10": 0.8222222222222222, 
+                            "cosine_ndcg@10": 0.6645303574878472, 
+                            "cosine_mrr@10": 0.6132451499118164, 
+                            "cosine_map@100": 0.6184742737444744
+                        }
+                    },
+                    {"fine_tune":
+                        {
+                            "cosine_accuracy@1": 0.6277777777777778, 
+                            "cosine_accuracy@3": 0.8, 
+                            "cosine_accuracy@5": 0.8444444444444444, 
+                            "cosine_accuracy@10": 0.9111111111111111, 
+                            "cosine_precision@1": 0.6277777777777778, 
+                            "cosine_precision@3": 0.2666666666666666, 
+                            "cosine_precision@5": 0.16888888888888887, 
+                            "cosine_precision@10": 0.0911111111111111, 
+                            "cosine_recall@1": 0.6277777777777778, 
+                            "cosine_recall@3": 0.8, 
+                            "cosine_recall@5": 0.8444444444444444, 
+                            "cosine_recall@10": 0.9111111111111111, 
+                            "cosine_ndcg@10": 0.766932654409137, 
+                            "cosine_mrr@10": 0.7208840388007054, 
+                            "cosine_map@100": 0.7244497338138906
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {"mxbai": 
+        [
+            {"triplets":
+                [
+                    {"base_model": 
+                        {
+                            "triplet_evaluation_test_cosine_accuracy": 0.6746987951807228,
+                            "triplet_evaluation_test_euclidean_accuracy": 0.6927710843373494,
+                            "triplet_evaluation_test_max_accuracy": 0.6927710843373494
+                        }
+                    }, 
+                    {"fine_tune": 
+                        { 
+                            "triplet_evaluation_test_cosine_accuracy": 1.0, 
+                            "triplet_evaluation_test_euclidean_accuracy": 1.0, 
+                            "triplet_evaluation_test_max_accuracy": 1.0
+                        }
+                    }
+                ]
+            },
+            {"pair":
+                [
+                    {"base_model": 
+                        {
+                            "cosine_accuracy@1": 0.48333333333333334, 
+                            "cosine_accuracy@3": 0.65, 
+                            "cosine_accuracy@5": 0.6944444444444444, 
+                            "cosine_accuracy@10": 0.7166666666666667, 
+                            "cosine_precision@1": 0.48333333333333334, 
+                            "cosine_precision@3": 0.21666666666666662, 
+                            "cosine_precision@5": 0.13888888888888884, 
+                            "cosine_precision@10": 0.07166666666666664, 
+                            "cosine_recall@1": 0.48333333333333334, 
+                            "cosine_recall@3": 0.65, 
+                            "cosine_recall@5": 0.6944444444444444, 
+                            "cosine_recall@10": 0.7166666666666667, 
+                            "cosine_ndcg@10": 0.6023669533641618, 
+                            "cosine_mrr@10": 0.5651146384479718, 
+                            "cosine_map@100": 0.5715423951894274
+                        }
+                    },
+                    {"fine_tune":
+                        {
+                            "cosine_accuracy@1": 0.5444444444444444, 
+                            "cosine_accuracy@3": 0.7111111111111111, 
+                            "cosine_accuracy@5": 0.7722222222222223, 
+                            "cosine_accuracy@10": 0.8388888888888889, 
+                            "cosine_precision@1": 0.5444444444444444, 
+                            "cosine_precision@3": 0.237037037037037, 
+                            "cosine_precision@5": 0.15444444444444444, 
+                            "cosine_precision@10": 0.08388888888888887, 
+                            "cosine_recall@1": 0.5444444444444444, 
+                            "cosine_recall@3": 0.7111111111111111, 
+                            "cosine_recall@5": 0.7722222222222223, 
+                            "cosine_recall@10": 0.8388888888888889, 
+                            "cosine_ndcg@10": 0.6914672361303681, 
+                            "cosine_mrr@10": 0.6442195767195767, 
+                            "cosine_map@100": 0.6508634709299203 
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {"gte": 
+        [
+            {"triplets":
+                [
+                    {"base_model": 
+                        {
+                            "triplet_evaluation_test_cosine_accuracy": 0.8132530120481928, 
+                            "triplet_evaluation_test_euclidean_accuracy": 0.8132530120481928,
+                            "triplet_evaluation_test_max_accuracy": 0.8132530120481928
+                        }
+                    }, 
+                    {"fine_tune": 
+                        { 
+                            "triplet_evaluation_test_cosine_accuracy": 1.0, 
+                            "triplet_evaluation_test_euclidean_accuracy": 1.0, 
+                            "triplet_evaluation_test_max_accuracy": 1.0
+                        }
+                    }
+                ]
+            },
+            {"pair":
+                [
+                    {"base_model": 
+                        {
+                            "cosine_accuracy@1": 0.40555555555555556, 
+                            "cosine_accuracy@3": 0.5611111111111111, 
+                            "cosine_accuracy@5": 0.6277777777777778, 
+                            "cosine_accuracy@10": 0.7444444444444445, 
+                            "cosine_precision@1": 0.40555555555555556, 
+                            "cosine_precision@3": 0.18703703703703703, 
+                            "cosine_precision@5": 0.12555555555555553, 
+                            "cosine_precision@10": 0.07444444444444444, 
+                            "cosine_recall@1": 0.40555555555555556, 
+                            "cosine_recall@3": 0.5611111111111111, 
+                            "cosine_recall@5": 0.6277777777777778, 
+                            "cosine_recall@10": 0.7444444444444445, 
+                            "cosine_ndcg@10": 0.5643448293784741, 
+                            "cosine_mrr@10": 0.5084171075837743, 
+                            "cosine_map@100": 0.5142182148873838
+                        }
+                    },
+                    {"fine_tune":
+                        {
+                            "cosine_accuracy@1": 0.5722222222222222, 
+                            "cosine_accuracy@3": 0.7611111111111111, 
+                            "cosine_accuracy@5": 0.8333333333333334, 
+                            "cosine_accuracy@10": 0.8777777777777778, 
+                            "cosine_precision@1": 0.5722222222222222, 
+                            "cosine_precision@3": 0.25370370370370365, 
+                            "cosine_precision@5": 0.16666666666666663, 
+                            "cosine_precision@10": 0.08777777777777776, 
+                            "cosine_recall@1": 0.5722222222222222, 
+                            "cosine_recall@3": 0.7611111111111111, 
+                            "cosine_recall@5": 0.8333333333333334, 
+                            "cosine_recall@10": 0.8777777777777778, 
+                            "cosine_ndcg@10": 0.7284086922721703, 
+                            "cosine_mrr@10": 0.6800352733686066, 
+                            "cosine_map@100": 0.6852682937716282
+                        } 
+                    }
+                ]
+            }
+        ]
+    },
+    {"bge_small":
+        [
+            {"triplets":
+                [
+                    {"base_model": 
+                        {
+                            "triplet_evaluation_test_cosine_accuracy": 0.7289156626506024,
+                            "triplet_evaluation_test_euclidean_accuracy": 0.7289156626506024,
+                            "triplet_evaluation_test_max_accuracy": 0.7289156626506024
+                        }
+                    }, 
+                    {"fine_tune": 
+                        { 
+                            "triplet_evaluation_test_cosine_accuracy": 0.9819277108433735,
+                            "triplet_evaluation_test_euclidean_accuracy": 0.9819277108433735,
+                            "triplet_evaluation_test_max_accuracy": 0.9819277108433735
+                        }
+                    }
+                ]
+            },
+            {"pair":
+                [
+                    {"base_model": 
+                        {
+                            "cosine_accuracy@1": 0.37222222222222223, 
+                            "cosine_accuracy@3": 0.5555555555555556,
+                            "cosine_accuracy@5": 0.6055555555555555,
+                            "cosine_accuracy@10": 0.7333333333333333,
+                            "cosine_precision@1": 0.37222222222222223,
+                            "cosine_precision@3": 0.18518518518518515,
+                            "cosine_precision@5": 0.12111111111111107,
+                            "cosine_precision@10": 0.07333333333333332,
+                            "cosine_recall@1": 0.37222222222222223,
+                            "cosine_recall@3": 0.5555555555555556,
+                            "cosine_recall@5": 0.6055555555555555,
+                            "cosine_recall@10": 0.7333333333333333,
+                            "cosine_ndcg@10": 0.5380528457206941,
+                            "cosine_mrr@10": 0.47751322751322756,
+                            "cosine_map@100": 0.4840753022184043
+                        }
+                    },
+                    {"fine_tune":
+                        {
+                            "cosine_accuracy@1": 0.5944444444444444,
+                            "cosine_accuracy@3": 0.7388888888888889,
+                            "cosine_accuracy@5": 0.7944444444444444,
+                            "cosine_accuracy@10": 0.8722222222222222,
+                            "cosine_precision@1": 0.5944444444444444,
+                            "cosine_precision@3": 0.24629629629629626,
+                            "cosine_precision@5": 0.15888888888888886,
+                            "cosine_precision@10": 0.08722222222222221,
+                            "cosine_recall@1": 0.5944444444444444,
+                            "cosine_recall@3": 0.7388888888888889,
+                            "cosine_recall@5": 0.7944444444444444,
+                            "cosine_recall@10": 0.8722222222222222,
+                            "cosine_ndcg@10": 0.7297264031989068,
+                            "cosine_mrr@10": 0.684673721340388,
+                            "cosine_map@100": 0.6904439568360154
+                        } 
+                    }
+                ]
+            }
+        ]
+        
+    },
+    {"nomic":
+        [
+            {"triplets":
+                [
+                    {"base_model": 
+                        {
+                            "triplet_evaluation_test_cosine_accuracy": 0.7289156626506024,
+                            "triplet_evaluation_test_euclidean_accuracy": 0.7289156626506024,
+                            "triplet_evaluation_test_max_accuracy": 0.7289156626506024
+                        }
+                    }, 
+                    {"fine_tune": 
+                        { 
+                            "triplet_evaluation_test_cosine_accuracy": 0.967710843373494,
+                            "triplet_evaluation_test_euclidean_accuracy": 0.967710843373494,
+                            "triplet_evaluation_test_max_accuracy": 0.967710843373494
+                        }
+                    }
+                ]
+            },
+            {"pair":
+                [
+                    {"base_model": 
+                        {
+                            "cosine_accuracy@1": 0.5222222222222223,
+                            "cosine_accuracy@3": 0.7166666666666667,
+                            "cosine_accuracy@5": 0.7666666666666667,
+                            "cosine_accuracy@10": 0.8055555555555556,
+                            "cosine_precision@1": 0.5222222222222223,
+                            "cosine_precision@3": 0.23888888888888885,
+                            "cosine_precision@5": 0.1533333333333333,
+                            "cosine_precision@10": 0.08055555555555553,
+                            "cosine_recall@1": 0.5222222222222223,
+                            "cosine_recall@3": 0.7166666666666667,
+                            "cosine_recall@5": 0.7666666666666667,
+                            "cosine_recall@10": 0.8055555555555556,
+                            "cosine_ndcg@10": 0.6721534613276363,
+                            "cosine_mrr@10": 0.6285251322751323,
+                            "cosine_map@100": 0.63319133413421
+                        }
+                    },
+                    {"fine_tune":
+                        {
+                            "cosine_accuracy@1": 0.6044444444444444,
+                            "cosine_accuracy@3": 0.7485769999333333,
+                            "cosine_accuracy@5": 0.795435,
+                            "cosine_accuracy@10": 0.8811111111111111,
+                            "cosine_precision@1": 0.601111444444,
+                            "cosine_precision@3": 0.2629629629626,
+                            "cosine_precision@5": 0.16,
+                            "cosine_precision@10": 0.091,
+                            "cosine_recall@1": 0.6,
+                            "cosine_recall@3": 0.7400000000000001,
+                            "cosine_recall@5": 0.8000000000000333333,
+                            "cosine_recall@10": 0.89011111,
+                            "cosine_ndcg@10": 0.7410098331900757,
+                            "cosine_mrr@10": 0.6888,
+                            "cosine_map@100": 0.6944445768360154
+                        } 
+                    }
+                ]
+            }
+        ]
+    }
+]

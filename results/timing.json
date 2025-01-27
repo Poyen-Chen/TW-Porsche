@@ -1,0 +1,26 @@
+[
+    {
+        "stella": {"Inference time (sec)": 11.011378526687622, "Embedding dimension": 1024, "Model parameters (M)": 435, "Memory usage (GB, fp32)": 1.62, "MTEB rank": 8}
+    },
+    {
+        "mxbai": {"Inference time (sec)": 6.738156318664551, "Embedding dimension": 1024, "Model parameters (M)": 335, "Memory usage (GB, fp32)": 1.25, "MTEB rank": 37}
+    },
+    {
+        "gte": {"Inference time (sec)": 10.91224718093872, "Embedding dimension": 1024, "Model parameters (M)": 335, "Memory usage (GB, fp32)": 1.25, "MTEB rank": 59}
+    },
+    {
+        "bge_small": {"Inference time (sec)": 0.3933138847351074, "Embedding dimension": 384, "Model parameters (M)": 33, "Memory usage (GB, fp32)": 0.12, "MTEB rank": 72}
+    },
+    {
+        "bge_large": {"Inference time (sec)": 8.639449119567871, "Embedding dimension": 1024, "Model parameters (M)": 335, "Memory usage (GB, fp32)": 1.25, "MTEB rank": 47}
+    },
+    {
+        "all-mpnet": {"Inference time (sec)": 1.2732877731323242, "Embedding dimension": 768, "Model parameters (M)": 110, "Memory usage (GB, fp32)": 0.41, "MTEB rank": 130}
+    },
+    {
+        "uae-large": {"Inference time (sec)": 5.085451602935791, "Embedding dimension": 1024, "Model parameters (M)": 335, "Memory usage (GB, fp32)": 1.25, "MTEB rank": 38}
+    },
+    {
+        "nomic": {"Inference time (sec)": 4.856879994561325, "Embedding dimension": 768, "Model parameters (M)": 137, "Memory usage (GB, fp32)": 0.51, "MTEB rank": 65}
+    }
+]

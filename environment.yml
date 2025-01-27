@@ -10,20 +10,26 @@ dependencies:
   - wheel
   - pip
   - pip:
+      - beautifulsoup4
+      - beautifulsoup4
       - bitsandbytes
-      - pypdf
-      - pypdfium2
       - faiss-cpu
+      - huggingface-hub
       - langchain
-      - langchain-openai
+      - langchain-anthropic
+      - langchain-aws
       - langchain-community
       - langchain-core
-      - langchain-text-splitters
       - langchain-huggingface
-      - langchain-aws
-      - langchain-anthropic
-      - beautifulsoup4
-      - playwright
-      - huggingface-hub
+      - langchain-openai
+      - langchain-text-splitters
       - openai
+      - peft
+      - playwright
+      - playwright
+      - pypdf
+      - pypdfium2
       - sentence-transformers
+      - sentence-transformers
+      - transformers
+      - xformers

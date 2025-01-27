@@ -60,4 +60,25 @@ api_key = os.environ['HUGGINGFACEHUB_API_TOKEN']
 ```
 
 ## Usage
-- `embedding_model.ipynb`: compare fine-tuned model to pretrained model with similarity score as an evaluation index
+Our fine-tuning dataset can be found in `data` folder:
+
+- `qa_pairs_pos_and_neg.json`: triplet dataset with (anchor, positive, negative)
+- `qa_pairs_pos_only.json`: pairs dataset with (anchor, positive)
+- `docs/`: contain additional Porsche documents we use other than web scraping to store in our vector database
+
+Due to limited computational resources, most of our work are done in Colab/Kaggle notebook as below:
+
+- `get_data_from_web.ipynb`: web scraping to collect dataset
+- `finetuning.ipynb`: fine-tuning embedding models
+- `save_finetune_evaluator_results.ipynb`: save the evaluation results into `json` files for visualization in `finetuning_results_evaluation.ipynb`
+- `finetuning_results_evaluation.ipynb`: compare fine-tuned model to pretrained model with similarity score as an evaluation index
+- `rag_pipeline.ipynb`: integrate into RAG pipeline
+
+Optionally, in src folder, there are equivalent `.py` files:
+
+- `web_scrape.py`: scraping from website
+- `syndata_generator.py`: generate synthetic dataset
+- `config.yaml`: user can input their embedding model and customize their fine-tuning hyperparameters
+- `fine_tuning.py`: fine-tuning embedding models
+- `rag_pipeline.py`: integrate into RAG pipeline
+- `src/aws_bedrock_models`: source codes for generating synthetic dataset using AWS bedrock
