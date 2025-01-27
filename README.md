@@ -2,8 +2,6 @@
 
 Idea: Recommendation system with fine-tuning text embedding models
 
-[Text Embedding model leaderboard](https://huggingface.co/blog/mteb)
-
 ## Requirements
 
 - [Python 3.10 or higher](https://www.python.org/downloads/)
