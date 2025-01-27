@@ -60,7 +60,7 @@ api_key = os.environ['HUGGINGFACEHUB_API_TOKEN']
 ## Dataset:
 ### From [Porsche Newsroom](https://newsroom.porsche.com/en.html):
 Press releases and news articles, Product announcements and specifications, Corporate news and updates, Event coverage, Photo and video galleries
-### From [Porsche.com](https://newsroom.porsche.com/en.html):
+### From [Porsche.com](https://www.porsche.com/uk/?georedirect=false&referrer_url=https%3A%2F%2Fwww.porsche.com%2Fgermany%2F%3Fcs_redirect%3D1):
 Vehicle specifications and features, Model information and pricing, Product configurations, Dealership information, Public marketing materials
 
 ## Usage
